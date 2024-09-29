@@ -8,7 +8,7 @@ import re
 
 pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract' 
 # Set TESSDATA_PREFIX environment variable for Tesseract
-os.environ['TESSDATA_PREFIX'] = r'/usr/share/tessdata'  # Adjust the path if needed
+os.environ['TESSDATA_PREFIX'] = '/usr/share/tesseract-ocr/4.00/tessdata'  # Adjust the path if needed
 
 # Configure Tesseract to use both English and Hindi OCR
  # Ensure this path is correct
