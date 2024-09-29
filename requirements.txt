@@ -4,4 +4,4 @@ pytesseract
 transformers
 torch
 tesseract
-bash install_tesseract.sh
+
