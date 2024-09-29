@@ -6,9 +6,9 @@ from transformers import AutoProcessor, Qwen2VLForConditionalGeneration
 import torch
 import re
 
-pytesseract.pytesseract.tesseract_cmd = r'/opt/homebrew/bin/tesseract/' 
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract' 
 # Set TESSDATA_PREFIX environment variable for Tesseract
-#os.environ['TESSDATA_PREFIX'] = r'/opt/homebrew/share/'  # Adjust the path if needed
+os.environ['TESSDATA_PREFIX'] = r'/usr/share/tessdata'  # Adjust the path if needed
 
 # Configure Tesseract to use both English and Hindi OCR
  # Ensure this path is correct
